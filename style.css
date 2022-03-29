@@ -1,0 +1,80 @@
+body{
+    
+    border: 5px solid red;
+    margin: 0;
+    background-color:white;
+
+
+p
+{
+    font-family:"poppins";
+    
+}
+
+#welcomeSection{
+    background-color:black;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#title{
+    font-size: 50px;
+    color:red;
+    margin:0px;
+    
+}
+
+
+#project-title{
+    font-weight:bold;
+    color:red;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+
+
+}
+#project-section{
+    background-color:white;
+    padding-top:40px;
+    height:2000px;
+    width:100%;
+
+}
+#project-hr{
+    width:80%;
+    
+
+}
+#project-box{
+    height:500px;
+    width:250px;
+    border: 2px solid;
+    color:red
+    margin:20px;
+
+
+}
+
+#project-image{
+    height:100%;
+    width:100%;
+} 
+.row{
+    display:flex;
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .column{
+      
+      float: left;
+      width:33.33px;
+      padding:5px;
+
+  }
